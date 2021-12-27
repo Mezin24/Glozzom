@@ -198,6 +198,59 @@
       </div>
     </section>
 
+    <!-- VIDEO PLAY -->
+    <section id="video-play">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container p-5">
+              <a
+                href="#"
+                data-video="https://www.youtube.com/embed/HnwsG9a5riA"
+                class="video"
+                data-toggle="modal"
+                data-target="#videoModal"
+              >
+                <i class="fas fa-play fa-3x"></i>
+              </a>
+              <h2>See What We Do</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div
+      class="modal fade"
+      id="videoModal"
+      tabindex="-1"
+      aria-labelledby="videoModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <iframe
+              src=""
+              frameborder="0"
+              height="350"
+              width="100%"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
