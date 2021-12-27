@@ -1,1 +1,2 @@
-body { background-color: red; }
+.navbar .nav-link { font-size: 14px; text-transform: uppercase; padding: 0 1rem !important; }
+.navbar .nav-item.active { border-left: #444 3px solid; }
