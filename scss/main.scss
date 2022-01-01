@@ -100,3 +100,17 @@ body {
   margin-top: -50px;
   width: 80%;
 }
+
+#faq {
+  .card {
+    border: #444;
+  }
+  .card-body,
+  .card-header {
+    background: #333;
+  }
+
+  button {
+    color: #fff;
+  }
+}
