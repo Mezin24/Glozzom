@@ -1,1 +1,1 @@
-# Glozzom - multipage bootstrap theme
+#Glozzom - multipage bootstrap theme
