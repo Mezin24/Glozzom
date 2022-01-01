@@ -25,3 +25,5 @@ body { overflow-x: hidden; }
 #faq .card { border: #444; }
 #faq .card-body, #faq .card-header { background: #333; }
 #faq button { color: #fff; }
+
+#main-footer { background: black; color: white; }
